@@ -68,9 +68,20 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the application from your project directory using the entry point and options supported by `main.py`.
+Run the application from the project directory:
 
-The application supports webcam-based detection and video-file detection. Check the source code for the exact input options and commands.
+```bash
+python main.py
+```
+
+When prompted, select an input mode:
+
+- Enter `1` to use your webcam.
+- Enter `2` to process a video file, then provide the video file path.
+
+During detection:
+- Press `q` to quit.
+- Press `s` to save an annotated detection image.
 
 ## Output
 
