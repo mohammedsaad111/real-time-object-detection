@@ -2,13 +2,13 @@
 
 A real-time object detection application built with Python, OpenCV, and Ultralytics YOLO.
 
-The application supports webcam and video-file input, detects objects in each frame, displays confidence scores, counts detected object classes, calculates FPS, and can save annotated images and processed videos.
+The application detects objects in webcam streams and video files, displays bounding boxes and confidence scores, counts detected objects by class, calculates FPS, and supports saving annotated detection images and processed videos.
 
 ## Features
 
 - Real-time object detection using YOLO
-- Webcam detection
-- Video-file detection
+- Webcam input
+- Video-file input
 - Confidence threshold filtering
 - Bounding boxes and confidence scores
 - Class-wise object counting
@@ -27,15 +27,68 @@ The application supports webcam and video-file input, detects objects in each fr
 
 ```text
 real-time-object-detection/
-│
 ├── input/
 │   └── test video files
-│
 ├── output/
 │   └── processed videos
-│
 ├── detector.py
 ├── main.py
 ├── utils.py
 ├── requirements.txt
 ├── .gitignore
+└── README.md
+```
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mohammedsaad111/real-time-object-detection.git
+cd real-time-object-detection
+```
+
+### 2. Create a virtual environment (recommended)
+
+```bash
+python -m venv venv
+```
+
+Activate it on Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the application from your project directory using the entry point and options supported by `main.py`.
+
+The application supports webcam-based detection and video-file detection. Check the source code for the exact input options and commands.
+
+## Output
+
+The application displays detected objects with bounding boxes and confidence scores. It can also display class-wise counts and FPS, and save annotated images or processed videos when those options are enabled.
+
+## Learning Outcomes
+
+This project demonstrates practical use of computer vision, object detection, video processing, and real-time inference using Python, OpenCV, and YOLO.
+
+## Future Improvements
+
+- Add support for image-file input
+- Improve detection performance and inference speed
+- Add more configuration options
+- Include demonstration screenshots and sample output videos
+
+## Author
+
+**Mohammed Saad**
+
+GitHub: https://github.com/mohammedsaad111
