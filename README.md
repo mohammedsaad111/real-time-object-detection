@@ -4,6 +4,12 @@ A real-time object detection application built with Python, OpenCV, and Ultralyt
 
 The application detects objects in webcam streams and video files, displays bounding boxes and confidence scores, counts detected objects by class, calculates FPS, and supports saving annotated detection images and processed videos.
 
+## Project Preview
+
+![AI-generated concept illustration of real-time object detection](Real-Time%20Urban%20Object%20Detection.png)
+
+*Illustrative concept image — not an actual output screenshot from the application.*
+
 ## Features
 
 - Real-time object detection using YOLO
